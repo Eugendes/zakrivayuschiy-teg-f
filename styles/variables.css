@@ -1,1 +1,11 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --red-heart: #ff0000;
+  --transition-duration: 0.3s;
+  --transition-timing-function: ease;
+  --hover-transition-duration: 0.5s;
+  --hover-timing-function: ease-in-out;
+  --font-family-2P: "PressStart2P-Regular", sans-serif;
+  --font-family-inter: "Inter-Variable", sans-serif;
+  --background-color-backdrop:rgba(0, 0, 0, 0.75);
+}
