@@ -281,6 +281,7 @@
   font-family: var(--font-family-additional);
   font-weight: 400;
   font-size: 14px;
+  line-height: 0,9;
   color: var(--color);
 }
 
@@ -409,8 +410,6 @@ dialog::backdrop {
 }
 
 .dialog__content-text {
-  font-family: var(--font-family-additional);
-  font-size: 13px;
   line-height: 1.5;
   text-transform: uppercase;
 }
