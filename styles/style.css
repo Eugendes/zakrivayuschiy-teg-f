@@ -179,7 +179,6 @@
   object-fit: cover;
   pointer-events: none;
   width: 100%;
-
 }
 
 @supports (-webkit-text-stroke: 1px var(--label-shadow)) {
@@ -384,7 +383,7 @@ button {
 
 .card__like-button::before,
 .button__end::before,
-.dialog__form-button::before  {
+.dialog__form-button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -456,7 +455,7 @@ dialog::backdrop {
 .dialog__content-text {
   font-family: var(--font-family-2P);
   font-size: 13px;
-  line-height: 1.50;
+  line-height: 1.5;
   text-transform: uppercase;
 }
 
@@ -469,7 +468,6 @@ dialog::backdrop {
 /*..............................................................................................*/
 
 @media (max-width: 1439px) {
-
   .page {
     min-width: 375px;
     padding-inline: clamp(0rem, -8.143rem + 34.742vw, 23.125rem);
@@ -492,14 +490,14 @@ dialog::backdrop {
     max-height: clamp(23.438rem, 16.373rem + 30.141vw, 43.5rem);
   }
 
-  .label{
+  .label {
     top: 60px;
-    right: clamp(0.813rem, 0.548rem + 1.127vw, 1.563rem); 
+    right: clamp(0.813rem, 0.548rem + 1.127vw, 1.563rem);
   }
 
   .label:first-child {
     top: clamp(5rem, 6.21rem + -5.164vw, 1.563rem);
-    right: clamp(0.813rem, 0.548rem + 1.127vw, 1.563rem); 
+    right: clamp(0.813rem, 0.548rem + 1.127vw, 1.563rem);
   }
 
   .end {
