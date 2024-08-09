@@ -33,7 +33,7 @@
 }
 
 .sparks {
-  fill: var(--red-heart);
+  fill: var(--like-heart);
   opacity: 0;
 }
 
@@ -62,13 +62,13 @@
 
 .like-icon:active .core {
   opacity: 1;
-  fill: var(--red-heart);
+  fill: var(--like-heart);
   transition: fill 0.3s;
 }
 
 .like-icon:active .main-body {
   opacity: 1;
-  fill: var(--red-heart);
+  fill: var(--like-heart);
   transition: fill 0.3s 0.05s;
 }
 
@@ -80,19 +80,19 @@
 }
 
 .like-icon.is-liked .contour {
-  fill: var(--red-heart);
+  fill: var(--like-heart);
   transition: fill 0.3s 0.06s;
 }
 
 .like-icon.is-liked .core {
   opacity: 1;
-  fill: var(--red-heart);
+  fill: var(--like-heart);
   transition: fill 0.3s;
 }
 
 .like-icon.is-liked .main-body {
   opacity: 1;
-  fill: var(--red-heart);
+  fill: var(--like-heart);
   transition: fill 0.3s 0.05s;
 }
 
