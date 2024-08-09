@@ -113,27 +113,14 @@
   background: currentColor;
   transition: width var(--transition-duration) var(--transition-timing-function);
   width: 0;
-}
-
-.theme-menu__button:hover::after {
-  width: 100%;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
 }
 
 .theme-menu__button:focus {
   outline: none;
   opacity: 0.6;
-}
-
-.theme-menu__button::after {
-  content: "";
-  display: block;
-  height: 2px;
-  background: currentColor;
-  transition: width var(--transition-duration) var(--transition-timing-function);
-  width: 0;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
 }
 
 .theme-menu__button:focus::after {
@@ -222,11 +209,6 @@
   justify-content: end;
   padding-inline-end: 25px;
   margin-block-end: 25px;
-  gap: 12px;
-}
-
-.button__block {
-  display: flex;
   gap: 7px;
 }
 
@@ -262,7 +244,6 @@ button {
   border: 2px solid var(--border-color);
   margin: 0;
   font: inherit;
-  text-align: inherit;
   cursor: pointer;
   text-align: center;
 }
@@ -322,7 +303,6 @@ button {
   max-width: 335px;
   display: flex;
   align-items: center;
-  border: none;
   cursor: pointer;
   box-sizing: border-box;
   padding-block: 15px;
@@ -350,6 +330,8 @@ button {
 .dialog__form-button {
   transition: box-shadow var(--transition-duration)
     var(--transition-timing-function);
+  position: relative;
+  overflow: hidden;
 }
 
 .card__like-button:focus,
@@ -373,13 +355,6 @@ button {
 }
 
 /*....................BUTTON HOVER..........................*/
-
-.card__like-button,
-.button__end,
-.dialog__form-button {
-  position: relative;
-  overflow: hidden;
-}
 
 .card__like-button::before,
 .button__end::before,
